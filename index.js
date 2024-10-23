@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
         clickSound()
         open("https://api.whatsapp.com/send?phone=593999713031&text=Hola%20Angie%20y%20Luis%2C%20confirmo%20mi%20asistencia%20al%20babyshower%20de%20Samuel%2C%20nos%20vemos%20el%2017%20de%20noviembre%20%F0%9F%8D%BC%F0%9F%8C%9E", "WhatsApp")
     });
-    document.getElementById('fecha').textContent = "Domingo, 17 de Noviembre del 2024";
+    document.getElementById('fecha').textContent = "Domingo, 17 de Noviembre del 2024 15h00";
 
     updateCountdown();
     animateSprite();
