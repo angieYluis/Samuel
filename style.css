@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('./font/MinecraftiaRegular.ttf');
+}
+
+* {
+    font-family: 'Minecraftia', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#sprite {
+    width: 34px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    overflow: hidden;
+}
+
+#wishlist {
+    width: 310px;
+    height: 60px;
+    background-image: url('./assets/minecraft_map_template.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#subtitle{
+    text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF;
+}
+
+#wishlist_img {
+    position: fixed;
+    background: url('./assets/wishlist.webp') no-repeat center;
+    background-size: cover;
+    width: 90%;
+    height: 90%;
+    visibility: hidden;
+    z-index: 100;
+}
+
+@-webkit-keyframes subtitle {
+    0% {
+        transform: scale(0.875) rotate(-20deg);
+    }
+    100% {
+        transform: scale(1) rotate(-20deg);
+    }
+}
+
+@keyframes subtitle {
+    0% {
+        transform: scale(0.875) rotate(-20deg);
+    }
+    100% {
+        transform: scale(1) rotate(-20deg);
+    }
+}
